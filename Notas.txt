@@ -51,3 +51,23 @@ Una de las maneras mas comunes de usar la busqueda binaria es para encontrar un 
 
 Funciones y abstraccion.
 
+Decomposición
+    Permite dividir el código en componentes que colaboran con un fin en común.
+    Se puede pensar como mini programas dentro de un programa mayoria
+
+Funciones:
+definicion en Python:
+
+def <nombre>(<parametros):
+    <cuerpo>
+    return <expresion>
+
+Ejemplo:
+
+def suma(a,b):
+    total = a +b
+    return total
+//para ejecutar
+suma(2,3)
+
+Argumentos de tipo keyword y valores por defecto.
