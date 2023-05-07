@@ -71,3 +71,10 @@ def suma(a,b):
 suma(2,3)
 
 Argumentos de tipo keyword y valores por defecto.
+
+Recursividad:
+La recursividad es una caracteristica de los lenguajes de programación que permite que un subprograma se invoque a si mismo
+- Algoritmica: Una forma de crear soluciones utilizando el principio de divide y venceras.
+- Programática: Una técnica programática mediante la cual una función se llma así misma.
+
+
