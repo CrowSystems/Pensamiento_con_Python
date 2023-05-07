@@ -73,8 +73,44 @@ suma(2,3)
 Argumentos de tipo keyword y valores por defecto.
 
 Recursividad:
-La recursividad es una caracteristica de los lenguajes de programación que permite que un subprograma se invoque a si mismo
+La recursividad es una caracteristica de los lenguajes de programación que permite que un subprograma se invoque a si mismo.
+La recursividad es util para resolver problemas definibles en sus propios terminos.
+La recursividad es, en cierta medida, análoga al principio de inducción.
 - Algoritmica: Una forma de crear soluciones utilizando el principio de divide y venceras.
 - Programática: Una técnica programática mediante la cual una función se llma así misma.
+
+Funciones como objetos:
+
+Una de las caracteristicas más poderosas de python es que todo es un objeto, incluyendo las funciones. Las funciones en Python son 
+"ciudadanos de primera clase".
+
+Esto, en sentido amplio, significa que en Python las funciones:
+
+    - Tienen un tipo
+    - Se pueden pasar como argumento de otras funciones
+    - Se pueden utilizar en expresiones.
+    - Se puede incluir en varias estructuras de datos (como listas, tuplas, diccionarios, etc.)
+
+Funciones en expresiones:
+
+Una forma de definir una función en una expresión es utilizando el keyword lambda. lambda tiene la siguiente sintaxis: lambda: .
+
+Ejemplo:
+sumar = lambda x, y: x + y
+
+sumar(2, 3)
+
+5
+
+Funciones en estructuras de datos:
+
+Las funciones tambien se pueden incluir en diversas estructuras que las permiten almacenar. Por ejemplo, una lista que puede guardar diversas
+funciones a aplicar o un diccionario las puede almacenar como valores.
+
+MODULO 5
+TIPOS ESTRUCTURADOS, MUTABILIDAD Y FUNCIONES DE ALTO NIVEL.
+
+TUPLAS:
+
 
 
